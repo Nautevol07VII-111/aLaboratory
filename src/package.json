@@ -1,0 +1,14 @@
+
+{
+    "name": "src",
+    "version": "1.0.0",
+    "main": "index.html",
+    "scripts": {
+      "start": "webpack-dev-server --mode development --open"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": ""
+  }
+  
