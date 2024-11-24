@@ -68,7 +68,7 @@ header h4 {
 main {
     display: flex;
     flex-direction: column;
-    gap: 4rem;
+    gap: 6rem;
 }
 section {
     display: flex;
@@ -102,13 +102,19 @@ section h2,
 .experience-contents {
     display: flex;
     flex-direction: column;
-    gap: 2rem; 
+    gap: 4rem; 
 }
 
 .experience-card {
     display: grid;
     grid-template-columns:repeat(1, minmax(0, 1fr));
     gap: 0.5rem;
+}
+
+.card-column {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
 }
 .tenure {
     opacity: 0.7;
@@ -121,13 +127,28 @@ section h2,
     font-size: 0.9rem;
 }
 .card-header {
-    font-weight: 500;
+    font-weight: 450;
     font-size: 1rem;
 }
 
 .name {
     color:  #fffdd0;
     opacity: 8.00;
-    
-  
+}
+
+.tag-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    color: var(--color-accent);
+}
+
+.tag {
+    border-radius: 0.5rem;
+    padding: 0.25rem, 0.5rem;
+    background: rgba(45, 212, 191, .1);
+}
+
+.tag p {
+    font-size: 0.8rem;
 }
