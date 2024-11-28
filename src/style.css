@@ -106,10 +106,19 @@ section h2,
     gap: 4rem; 
 }
 
-.experience-card {
+.experience-card,
+.project-card {
     display: grid;
     grid-template-columns:repeat(1, minmax(0, 1fr));
+    
+}
+
+.experience-card {
     gap: 0.5rem;
+}
+
+.project-card {
+    gap: 1rem;
 }
 
 .card-column {
@@ -160,9 +169,17 @@ section h2,
     flex-direction: column;
     place-items: center;
     aspect-ratio: 16 / 9;
+    order: 2;
+    border-radius: 0.5rem;
 }
 
 .project-image-container img {
 object-fit: cover;
 width: 100%;
+height: 100%;
+}
+
+.project-archive-link {
+    position: relative;
+    color: var(--color-higlight);
 }
