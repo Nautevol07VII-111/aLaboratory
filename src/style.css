@@ -83,6 +83,23 @@ section h2,
     font-weight: 500;
 
 }
+
+.sticky-header {
+    position: sticky;
+    top: 0;
+    padding: 1rem;
+}
+.sticky-header h2 {
+    position: relative;
+    z-index: 2;
+}
+.sticky-header::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: #101a31;
+    opacity: 0.8;
+}
 .about-contents {
     display: flex;
     flex-direction: column;
