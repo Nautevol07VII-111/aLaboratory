@@ -217,8 +217,7 @@ height: 100%;
     overflow: auto;
     display: grid;
     flex-direction: row-reverse;
-    place-items: right;
-    aspect-ratio: 6 / 9;
+   aspect-ratio: 6 / 9;
     order: 2;
     border-radius: 0.5rem;
 }
